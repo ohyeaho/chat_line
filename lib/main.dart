@@ -6,7 +6,7 @@ import 'package:line_chat/utils/firebase.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  Firestore.getUser();
+  Firestore.addUser();
   runApp(const MyApp());
 }
 
